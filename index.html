@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rakib Hossain</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    .navbar {
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.3rem;
+      letter-spacing: 1px;
+    }
+
+    /* Hero Section */
+    #home {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+      color: #fff;
+      padding: 120px 20px;
+    }
+
+    #home h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    #home p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    /* About Section */
+    #about h2 {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    #about img {
+      height: 400px;
+      width: 400px; 
+    }
+    
+    #about  {
+      font-size: 18px; 
+    }
+
+    /* Services Section */
+    #services .card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    #services .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    /* Contact Section */
+    #contact h2 {
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>   
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">রাকিব হোসেন</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">হোম</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">আমার সম্পর্কে</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">সার্ভিস</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">কন্টাক্ট</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="text-center">
+    <div class="container">
+      <h1 class="display-4 md-4">HTML CSS Bootstrap দিয়ে তৈরি ওয়েবসাইট !</h1>
+      <p class="lead">এটি একটি Responsive Website ডেমো</p>
+      <a href="#about" class="btn btn-primary btn-lg">আরও জানুন</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="p-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <img src="Rakib .png" class="img-fluid rounded shadow" alt="About">
+        </div>
+        <div class="col-md-5">
+          <h2>আমার সম্পর্কে</h2>
+          <p>
+            আমি রাকিব হোসেন ফন্ট ইন ওয়েব ডেভেলাপার হিসেবে কাজ করছি, HTML, CSS JAVASCRIPT, Bootstrap ব্যবহার করে সহজে এবং দ্রুত Responsive ওয়েবসাইট তৈরি করি। আমাদের লক্ষ্য হলো এমন ওয়েবসাইট তৈরি করা যা সব ডিভাইসে যেমন (মোবাইল,টেব,কম্পিউটার) সুন্দর দেখায়। ইউজার পেন্ডলি ওয়েবসাইট তৈরী করা যা একজন ব্যবহার কারীর দৃষ্টি আকর্ষণীয় করে তৈরী করা হয়। 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="bg-light p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">আমার সার্ভিস</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">🌐 Web Design</h5>
+              <p class="card-text">আকর্ষণীয় ওয়েবসাইট ডিজাইন করা।</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">💻 Web Development</h5>
+              <p class="card-text">ডাইনামিক ওয়েবসাইট ডেভেলপমেন্ট।</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h5 class="card-title">🔍 SEO</h5>
+              <p class="card-text">ওয়েবসাইটকে সার্চ ইঞ্জিনে র‍্যাঙ্ক করানো।</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">কন্টাক্ট করুন</h2>
+      <form class="w-100 mx-auto shadow sm-5 p-4 rounded bg-light">
+        <div class="mb-3">
+          <label class="form-label">নাম</label>
+          <input type="text" class="form-control" placeholder="আপনার নাম লিখুন">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">ইমেইল</label>
+          <input type="email" class="form-control" placeholder="আপনার ইমেইল লিখুন">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">মেসেজ</label>
+          <textarea class="form-control" rows="4" placeholder="আপনার মেসেজ লিখুন"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">পাঠান</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-white text-center p-3">
+    <p class="mb-0">© 2025 | ডেভেলাপার_রাকিব হোসেন | সর্বস্বত্ব সংরক্ষিত।</p>
+  </footer>
+
+</body>
+</html>
